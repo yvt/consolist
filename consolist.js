@@ -130,11 +130,11 @@ function generateBrowserConsole(image)
         if (colors[7]) {
             chunks.push("%c▄");
             output.push("background:" + color1 + ";color:" + color2 + ";font-family:monospace;" +
-                "font-size:16px;line-height: 1;");
+                "font-size:16px;line-height: 0.99;");
         } else {
             chunks.push("%c▀");
             output.push("color:" + color1 + ";font-family:monospace;" +
-                "font-size:16px;line-height: 1;");
+                "font-size:16px;line-height: 0.99;");
         }
     });
 }
