@@ -199,8 +199,13 @@ function generateAnsi8(image)
 
 var defaultTerminal;
 
-if (global.HTMLImageElement) {
-    defaultTerminal = "browser";
+if (global.HTMLImageElement && global.navigator) {
+    var appVersion = global.navigator.appVersion;
+    if (appVersion.indexOf(" Edge/") >= 0 || appVersion.indexOf(" Trident/") >= 0) {
+        defaultTerminal = "dumb";
+    } else {
+        defaultTerminal = "browser";
+    }
 } else {
     defaultTerminal = "ansi24";
 }
