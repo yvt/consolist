@@ -1,0 +1,20 @@
+{
+  "name": "consolist",
+  "version": "1.0.0",
+  "description": "Outputs a bitmap image to a browser's developer console or a terminal.",
+  "main": "consolist.js",
+  "types": "consolist.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yvt <i@yvt.jp>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yvt/consolist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yvt/consolist/issues"
+  },
+  "homepage": "https://github.com/yvt/consolist"
+}

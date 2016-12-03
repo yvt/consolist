@@ -1,0 +1,13 @@
+/node_modules
+/modules
+/typings
+*.DS_Store
+*.tgz
+/build
+/tmp
+
+# edtors
+*.sublime-workspace
+*.sublime-project
+*.swp
+*~
