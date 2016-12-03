@@ -1,6 +1,6 @@
 {
   "name": "consolist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Outputs a bitmap image to a browser's developer console or a terminal.",
   "main": "consolist.js",
   "types": "consolist.d.ts",
