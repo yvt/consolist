@@ -249,7 +249,11 @@ function log(image, options)
     options = options || {};
 
     var generated = render(image, options);
-    return console.log.apply(console, generated);
+    if (options.logger) {
+        return options.logger.apply(console, generated);
+    } else {
+        return console.log.apply(console, generated);
+    }
 }
 
 exports.log = log;
